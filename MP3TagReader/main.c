@@ -49,7 +49,7 @@ int main(int argc,char *argv[])
     {
         printf(RED"Pass correct arguments\n"RESET);
         printf(CYAN"To view please pass like : ./a.out -v mp3_file_name\n"RESET);
-        printf(CYAN"To edit please pass like : ./a.out -e -t/-a/-A/-g/-y/-c MP3_file_name\n"RESET);
+        printf(CYAN"To edit please pass like : ./a.out -e -t/-a/-A/-g/-y/-c New_data MP3_file_name\n"RESET);
         printf(CYAN"To get help pass like : ./a.out -h\n"RESET);
     }
     return e_success;
@@ -67,3 +67,4 @@ OperationType check_operation_type(char *argv[])
     else
         return e_unsupported;
 }
+
